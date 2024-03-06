@@ -9,6 +9,7 @@
       padding-top: 40px;
       padding-bottom: 40px;
       background-color: #004643;
+      
     }
 
     .banner-image {
@@ -20,32 +21,41 @@
 
     .name {
   color: #fffffe;
+  display: flex;
+  justify-content: center;
 }
+
+
 
 .links {
   background-color: #f9bc60;
-}
-
-.links {
   color: #001e1d;
   text-decoration: none;
   align-items: center;
-  
+  justify-content: space-around;
 }
 
 .links a {
   color: #001e1d;
   text-decoration: none;
   text-align: center;
+  flex-grow: 1;
 }
-
+* {
+  border: thin red solid;
+}
 .items {
   display: flex;
   flex-direction: column;
   gap: 30px;
   max-width: 640px;
+  flex-grow: 1;
 
+}
 
+.banner {
+  display: flex;
+  justify-content: center;
 }
   </style>
 </head>
